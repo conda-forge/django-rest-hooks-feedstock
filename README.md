@@ -3,13 +3,25 @@ About django-rest-hooks
 
 Home: http://github.com/zapier/django-rest-hooks
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
 Summary: A powerful mechanism for sending real time API notifications via a new subscription model.
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-rest-hooks-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-rest-hooks-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-rest-hooks-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-rest-hooks-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-rest-hooks/badges/version.svg)](https://anaconda.org/conda-forge/django-rest-hooks)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-rest-hooks/badges/downloads.svg)](https://anaconda.org/conda-forge/django-rest-hooks)
 
 Installing django-rest-hooks
 ============================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `django-rest-hooks` available on y
 ```
 conda search django-rest-hooks --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-rest-hooks-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-rest-hooks-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-rest-hooks-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-rest-hooks-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-rest-hooks/badges/version.svg)](https://anaconda.org/conda-forge/django-rest-hooks)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-rest-hooks/badges/downloads.svg)](https://anaconda.org/conda-forge/django-rest-hooks)
 
 
 Updating django-rest-hooks-feedstock
