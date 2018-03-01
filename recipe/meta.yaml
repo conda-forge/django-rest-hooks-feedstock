@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.5.0" %}
 
 package:
   name: django-rest-hooks
@@ -7,11 +7,11 @@ package:
 source:
   fn: django-rest-hooks-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/django-rest-hooks/django-rest-hooks-{{ version }}.tar.gz
-  sha256: c121ffbc1ee4a116bd9d5b39e3c97152f409d84dd4d13e121465d20a03ac0dcf
+  sha256: 26ec5537d70aee00b5562f32e2a092fbd19ed320c1adba5f180912d76aacaeab
 
 build:
   script: python setup.py install
-  number: 1
+  number: 0
 
 requirements:
   build:
