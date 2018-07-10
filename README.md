@@ -14,14 +14,15 @@ Summary: A powerful mechanism for sending real time API notifications via a new 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-rest-hooks-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-rest-hooks-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-rest-hooks-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-rest-hooks-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/django-rest-hooks-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/django-rest-hooks-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-rest-hooks/badges/version.svg)](https://anaconda.org/conda-forge/django-rest-hooks)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-rest-hooks/badges/downloads.svg)](https://anaconda.org/conda-forge/django-rest-hooks)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-django--rest--hooks-green.svg)](https://anaconda.org/conda-forge/django-rest-hooks) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/django-rest-hooks.svg)](https://anaconda.org/conda-forge/django-rest-hooks) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/django-rest-hooks.svg)](https://anaconda.org/conda-forge/django-rest-hooks) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/django-rest-hooks.svg)](https://anaconda.org/conda-forge/django-rest-hooks) |
 
 Installing django-rest-hooks
 ============================
