@@ -6,27 +6,29 @@ package:
 
 source:
   fn: django-rest-hooks-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/d/django-rest-hooks/django-rest-hooks-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/d/django-rest-hooks/django-rest-hooks-{{ version }}.tar.gz
   sha256: 26ec5537d70aee00b5562f32e2a092fbd19ed320c1adba5f180912d76aacaeab
 
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
-  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - django >=1.4
     - requests
 
   run:
-    - python
+    - python >={{ python_min }}
     - django >=1.4
     - requests
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - rest_hooks
 
